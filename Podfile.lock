@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (5.5.0)
+  - KingfisherWebP (0.5.0):
+    - Kingfisher (~> 5.0)
+    - libwebp (>= 0.5.0)
+  - libwebp (1.0.2):
+    - libwebp/core (= 1.0.2)
+    - libwebp/dec (= 1.0.2)
+    - libwebp/demux (= 1.0.2)
+    - libwebp/dsp (= 1.0.2)
+    - libwebp/enc (= 1.0.2)
+    - libwebp/mux (= 1.0.2)
+    - libwebp/utils (= 1.0.2)
+    - libwebp/webp (= 1.0.2)
+  - libwebp/core (1.0.2):
+    - libwebp/webp
+  - libwebp/dec (1.0.2):
+    - libwebp/core
+  - libwebp/demux (1.0.2):
+    - libwebp/core
+  - libwebp/dsp (1.0.2):
+    - libwebp/core
+  - libwebp/enc (1.0.2):
+    - libwebp/core
+  - libwebp/mux (1.0.2):
+    - libwebp/core
+  - libwebp/utils (1.0.2):
+    - libwebp/core
+  - libwebp/webp (1.0.2)
+  - SnapKit (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - KingfisherWebP (~> 0.3)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: 6fe5e67a90fd335e49b0f5c075ff55ac5ebedd94
+  KingfisherWebP: 310f69a932151c526a7649de965f57e56918c8d0
+  libwebp: 10b2bf3c62bfa28046ff701771c9a75a7683d49b
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+
+PODFILE CHECKSUM: 11a31beda51fa22f2da3b8fcc5dfd01cf8171575
+
+COCOAPODS: 1.6.1
